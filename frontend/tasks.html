@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="login.html" onclick="logout()" id="logout-link">Logout</a>
+    <h2>Create or Update Task</h2>
+    <form id="task-form">
+        <input type="hidden" id="task-id">
+        <input type="text" id="task-title" placeholder="Title" required>
+        <input type="text" id="task-desc" placeholder="Description">
+        <label>
+            <input type="checkbox" id="task-completed"> Completed
+        </label>
+        <button type="submit">Save Task</button>
+    </form>
+
+    <h2>Your Tasks</h2>
+    <ul id="task-list"></ul>
+
+    <script src="tasks.js"></script>
+</body>
+</html>
