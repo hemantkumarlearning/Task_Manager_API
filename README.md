@@ -4,7 +4,7 @@ A full-stack Task Management application with a Django REST API backend and a va
 
 ### Live Demo
 
-- Backend API: https://task-manager-api-rk54.onrender.com(Use Postman for Testing)
+- Backend API: https://task-manager-api-rk54.onrender.com (Use Postman for Testing)
 
 - Frontend UI: https://my-frontend-cfgn.onrender.com
 
