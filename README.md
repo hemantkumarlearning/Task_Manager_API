@@ -2,6 +2,13 @@
 
 A full-stack Task Management application with a Django REST API backend and a vanilla HTML/CSS/JS frontend, deployed via Docker on Render. The backend uses JWT authentication and PostgreSQL as the database.
 
+### Live Demo
+
+- Backend API: https://task-manager-api-rk54.onrender.com(Use Postman for Testing)
+
+- Frontend UI: https://my-frontend-cfgn.onrender.com
+
+
 ### Tech Stack
 
 #### Backend:
@@ -19,6 +26,15 @@ A full-stack Task Management application with a Django REST API backend and a va
 - CSS
 - JavaScript (Vanilla)
 - Hosted on Render (Static Site)
+
+### API Endpoints
+Method	            Endpoint	            Description	Auth Required
+POST	           /api/register/	           Register new user	❌
+POST	           /api/token/	             Login and get JWT tokens	❌
+GET	             /api/tasks/	             List user tasks	✅
+POST	           /api/tasks/	             Create new task	✅
+PUT	             /api/tasks/<id>/	         Update a task	✅
+DELETE	         /api/tasks/<id>/	         Delete a task	✅
 
 ### Setup Locally
 
