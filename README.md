@@ -28,13 +28,13 @@ A full-stack Task Management application with a Django REST API backend and a va
 - Hosted on Render (Static Site)
 
 ### API Endpoints
-Method	            Endpoint	            Description	Auth Required
-POST	           /api/register/	           Register new user	❌
-POST	           /api/token/	             Login and get JWT tokens	❌
-GET	             /api/tasks/	             List user tasks	✅
-POST	           /api/tasks/	             Create new task	✅
-PUT	             /api/tasks/<id>/	         Update a task	✅
-DELETE	         /api/tasks/<id>/	         Delete a task	✅
+
+- POST -> /api/register/ (Register new user)
+- POST -> /api/token/ (Login and get JWT tokens)
+- GET	 -> /api/tasks/	(List user tasks)
+- POST -> /api/tasks/ (Create new task)	
+- PUT	 -> /api/tasks/<id>/ (Update a task)	
+- DELETE	-> /api/tasks/<id>/	(Delete a task)	
 
 ### Setup Locally
 
